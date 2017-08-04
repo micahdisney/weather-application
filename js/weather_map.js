@@ -8,7 +8,7 @@ var h3 = $('h3');
 ///-----------------------------------------------------------------------------------//
 
 
-var requestedInfo = $.get("http://api.openweathermap.org/data/2.5/forecast/daily", {
+    var requestedInfo = $.get("https://api.openweathermap.org/data/2.5/forecast/daily", {
     APPID: "8e215085dd374a78155aa7bdb365e857",
     lat: 29.423017,
     lon: -98.48527,
