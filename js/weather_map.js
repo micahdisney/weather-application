@@ -64,7 +64,7 @@ google.maps.event.addListener(marker, 'dragend', function (event) {
     var lon = parseFloat($('#lon').val());
 
 
-    var requestedInfo = $.get("http://api.openweathermap.org/data/2.5/forecast/daily", {
+    var requestedInfo = $.get("https://api.openweathermap.org/data/2.5/forecast/daily", {
         APPID: "8e215085dd374a78155aa7bdb365e857",
         lat: lat,
         lon: lon,
