@@ -1,1 +1,1 @@
-This is an interactive weather map that displays a 3 day forecast using AJAX requests sent to GoogleMaps and openweathermap.org APIs. User can drag and drop pin on map to retrieve forecast for desired location.
+
